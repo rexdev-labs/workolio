@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tech Jobs</title>
+    <link rel="stylesheet" type="text/css" href="asset/css/bulma.css">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <script src="asset/js/style.js"></script>
+    <link rel="stylesheet" href="asset/css/ionic.css" />
+</head>
+
+<body class="has-background-light">
+
+
+
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="https://bulma.io">
+                    <h3>Workolio</h3>
+                </a>
+
+                <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+
+
+            </div>
+
+
+            <div id="navMenu" class="navbar-menu">
+                <div class="navbar-start">
+
+                </div>
+
+                <div class="navbar-end">
+                    <a class="navbar-item">
+                        <b>CATEGORY</b>
+                    </a>
+
+                    <a class="navbar-item">
+                        <b>POST A JOB</b>
+                    </a>
+
+                    <a class="navbar-item">
+                        <b>BLOG</b>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="has-background-light" style="margin-top: -40px; padding-bottom: 50px;">
+        <div class="container">
+            <h1 class="title is-1 has-text-centered pt-12"><b>Tech Jobs</b></h1>
+            <p class="subtitle is-4  has-text-centered">Find your next remote job at companies like Museum Hack, Retrospect, and Buffe</p>
+            <div class="columns">
+                <div class="column"></div>
+                <div class="column is-three-fifths">
+                    <div class="box padding-1rm">
+                        <div class="columns">
+                            <div class="column is-one-third">
+                                <div class="control has-icons-left has-icons-right">
+                                    <input class="input border-hidden" type="email" placeholder="job title or keywoard">
+                                    <span class="icon is-small is-left">
+                                        <ion-icon name="search-outline"></ion-icon>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="columns">
+                                    <div class="column is-three-quarters">
+                                        <div class="control has-icons-left has-icons-right">
+                                            <input class="input border-hidden border-left" type="email" placeholder="job title or keyboard">
+                                            <span class="icon is-small is-left">
+                                                <ion-icon name="search-outline"></ion-icon>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="column">
+                                        <button class="button is-fullwidth bgdef font12">Search</button>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column"></div>
+            </div>
+            <div class="columns">
+                <div class="column"></div>
+                <div class="column is-three-fifths">
+                    <div class="columns">
+                        <div class="column is-2">
+                            <div class="has-text-centered">
+                                <ion-icon name="alert-circle-outline"></ion-icon><br>
+                                <p class="font12no"><b>Software Dev</b></p>
+                            </div>
+                        </div>
+                        <div class="column is-2">
+                            <div class="has-text-centered">
+                                <ion-icon name="alert-circle-outline"></ion-icon><br>
+                                <p class="font12no"><b>Marketing</b></p>
+                            </div>
+                        </div>
+                        <div class="column is-2">
+                            <div class="has-text-centered">
+                                <ion-icon name="alert-circle-outline"></ion-icon><br>
+                                <p class="font12no"><b>Design</b></p>
+                            </div>
+                        </div>
+                        <div class="column is-2">
+                            <div class="has-text-centered">
+                                <ion-icon name="alert-circle-outline"></ion-icon><br>
+                                <p class="font12no"><b>Product Manager</b></p>
+                            </div>
+                        </div>
+                        <div class="column is-2">
+                            <div class="has-text-centered">
+                                <ion-icon name="alert-circle-outline"></ion-icon><br>
+                                <p class="font12no"><b>Copywritter</b></p>
+                            </div>
+                        </div>
+                        <div class="column is-2">
+                            <div class="has-text-centered">
+                                <ion-icon name="alert-circle-outline"></ion-icon><br>
+                                <p class="font12no"><b>DEV Ops</b></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column"></div>
+            </div>
+
+
+
+            <div class="columns mt-6">
+                <div class="column"></div>
+                <div class="column is-two-thirds">
+                    <div class="box level">
+                        <div class="level-left">
+                            <div class="level-item">
+                                <p class="title is-6">60 jobs</p>
+                            </div>
+                        </div>
+                        <div class="level-right">
+                            <div class="level-item">
+                                <p class="subtitle-5"><button class="button is-link is-light colordef">Filter</button></p>
+                                &nbsp;
+                                <button class="button is-white ">Clear All</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column"></div>
+            </div>
+
+
+            <div class="columns">
+                <div class="column"></div>
+                <div class="column is-two-thirds">
+                    <div class="box">
+                        <div class="box shadow-hidden border-all mbhalfrm pad15">
+                            <article class="media">
+                                <figure class="media-left mtm24 ">
+                                    <p class="image is-64x64">
+                                        <img class="is-rounded" src="asset/images/coinbase.png">
+                                    </p>
+                                </figure>
+                                <div class="media-content">
+                                    <div class="content">
+                                        <p>
+                                            Group Product Marketing Manager, Consumer (Remote, USA)
+                                            <br>
+                                            <strong>Coinbase</strong>
+                                            &nbsp;&nbsp;
+                                            <ion-icon name="people-outline"></ion-icon> <span>1001-5000</span>
+                                        </p>
+                                    </div>
+                                    <nav class="level is-mobile">
+                                        <div class="level-left">
+                                            <a class="level-item">
+                                                <span class="tag border_rounded badge_fulltime"><b>Full Time</b></span>
+                                            </a>
+                                            <a class="level-item">
+                                                <span class="tag is-link is-light border_rounded"><b>* Product Marketnig Manager </b></span>
+                                            </a>
+                                        </div>
+                                    </nav>
+                                </div>
+                                <div class="media-right">
+                                    <div class="columns is-vcentered">
+                                        <div class="column is-10">
+                                            <p class="colordef" style="font-size: 12px;"><b>View job</b></p>
+                                        </div>
+                                        <div class="column is-2" style="font-size: 12px; margin-left: -20px; margin-top: 5px;">
+                                            <ion-icon name="arrow-forward-outline" class="colordef"></ion-icon>
+                                        </div>
+                                    </div>
+                                    <div class="columns is-vcentered mtm22">
+                                        <div class="column is-12">
+                                            <p class="font12no">About 6 hours ago</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </article>
+
+
+                        </div>
+
+
+                        <div class="box shadow-hidden border-all mbhalfrm pad15">
+                            <article class="media">
+                                <figure class="media-left mtm24">
+                                    <p class="image is-64x64">
+                                        <img class="is-rounded" src="asset/images/twilio.png">
+                                    </p>
+                                </figure>
+                                <div class="media-content">
+                                    <div class="content">
+                                        <p>
+                                            Vice President of Ethics, Corporate Compliance and Risk
+                                            <br>
+                                            <strong>Twilio</strong>
+                                            &nbsp;&nbsp;
+                                            <ion-icon name="people-outline"></ion-icon> <span>1001-5000</span>
+                                        </p>
+                                    </div>
+                                    <nav class="level is-mobile">
+                                        <div class="level-left">
+                                            <a class="level-item">
+                                                <span class="tag border_rounded badge_fulltime"><b>Full Time</b></span>
+                                            </a>
+                                            <a class="level-item">
+                                                <span class="tag is-link is-light border_rounded"><b>* Compliance Manager </b></span>
+                                            </a>
+                                        </div>
+                                    </nav>
+                                </div>
+                                <div class="media-right">
+                                    <div class="columns is-vcentered">
+                                        <div class="column is-10">
+                                            <p class="colordef" style="font-size: 12px;"><b>View job</b></p>
+                                        </div>
+                                        <div class="column is-2" style="font-size: 12px; margin-left: -20px; margin-top: 5px;">
+                                            <ion-icon name="arrow-forward-outline" class="colordef"></ion-icon>
+                                        </div>
+                                    </div>
+                                    <div class="columns is-vcentered mtm22">
+                                        <div class="column is-12">
+                                            <p class="font12no">3 hours ago</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </article>
+
+
+                        </div>
+
+
+
+                        <div class="box shadow-hidden border-all mbhalfrm pad15">
+                            <article class="media">
+                                <figure class="media-left mtm24">
+                                    <p class="image is-64x64">
+                                        <img class="is-rounded" src="asset/images/brex.png">
+                                    </p>
+                                </figure>
+                                <div class="media-content">
+                                    <div class="content">
+                                        <p>
+                                            Product Compliance Analyst
+                                            <br>
+                                            <strong>Brex</strong>
+                                            &nbsp;&nbsp;
+                                            <ion-icon name="people-outline"></ion-icon> <span>201-500</span>
+                                        </p>
+                                    </div>
+                                    <nav class="level is-mobile">
+                                        <div class="level-left">
+                                            <a class="level-item">
+                                                <span class="tag border_rounded badge_fulltime"><b>Full Time</b></span>
+                                            </a>
+                                            <a class="level-item">
+                                                <span class="tag is-link is-light border_rounded"><b>* Compliance Manager </b></span>
+                                            </a>
+                                        </div>
+                                    </nav>
+                                </div>
+                                <div class="media-right">
+                                    <div class="columns is-vcentered">
+                                        <div class="column is-10">
+                                            <p class="colordef" style="font-size: 12px;"><b>View job</b></p>
+                                        </div>
+                                        <div class="column is-2" style="font-size: 12px; margin-left: -20px; margin-top: 5px;">
+                                            <ion-icon name="arrow-forward-outline" class="colordef"></ion-icon>
+                                        </div>
+                                    </div>
+                                    <div class="columns is-vcentered mtm22">
+                                        <div class="column is-12">
+                                            <p class="font12no">3 hours ago</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+
+                        </div>
+
+<div class="box shadow-hidden border-all mbhalfrm pad15">
+                            <article class="media">
+                                <figure class="media-left mtm24">
+                                    <p class="image is-64x64">
+                                        <img class="is-rounded" src="asset/images/coinbase.png">
+                                    </p>
+                                </figure>
+                                <div class="media-content">
+                                    <div class="content">
+                                        <p>
+                                            Group Product Marketing Manager, Consumer (Remote, USA)
+                                            <br>
+                                            <strong>Coinbase</strong>
+                                            &nbsp;&nbsp;
+                                            <ion-icon name="people-outline"></ion-icon> <span>1001-5000</span>
+                                        </p>
+                                    </div>
+                                    <nav class="level is-mobile">
+                                        <div class="level-left">
+                                            <a class="level-item">
+                                                <span class="tag border_rounded badge_fulltime"><b>Full Time</b></span>
+                                            </a>
+                                            <a class="level-item">
+                                                <span class="tag is-link is-light border_rounded"><b>* Product Marketnig Manager </b></span>
+                                            </a>
+                                        </div>
+                                    </nav>
+                                </div>
+                                <div class="media-right">
+                                    <div class="columns is-vcentered">
+                                        <div class="column is-10">
+                                            <p class="colordef" style="font-size: 12px;"><b>View job</b></p>
+                                        </div>
+                                        <div class="column is-2" style="font-size: 12px; margin-left: -20px; margin-top: 5px;">
+                                            <ion-icon name="arrow-forward-outline" class="colordef"></ion-icon>
+                                        </div>
+                                    </div>
+                                    <div class="columns is-vcentered mtm22">
+                                        <div class="column is-12">
+                                            <p class="font12no">About 6 hours ago</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </article>
+
+
+                        </div>
+
+
+                        <div class="box shadow-hidden border-all mbhalfrm pad15">
+                            <article class="media">
+                                <figure class="media-left mtm24">
+                                    <p class="image is-64x64">
+                                        <img class="is-rounded" src="asset/images/twilio.png">
+                                    </p>
+                                </figure>
+                                <div class="media-content">
+                                    <div class="content">
+                                        <p>
+                                            Vice President of Ethics, Corporate Compliance and Risk
+                                            <br>
+                                            <strong>Twilio</strong>
+                                            &nbsp;&nbsp;
+                                            <ion-icon name="people-outline"></ion-icon> <span>1001-5000</span>
+                                        </p>
+                                    </div>
+                                    <nav class="level is-mobile">
+                                        <div class="level-left">
+                                            <a class="level-item">
+                                                <span class="tag border_rounded badge_fulltime"><b>Full Time</b></span>
+                                            </a>
+                                            <a class="level-item">
+                                                <span class="tag is-link is-light border_rounded"><b>* Compliance Manager </b></span>
+                                            </a>
+                                        </div>
+                                    </nav>
+                                </div>
+                                <div class="media-right">
+                                    <div class="columns is-vcentered">
+                                        <div class="column is-10">
+                                            <p class="colordef" style="font-size: 12px;"><b>View job</b></p>
+                                        </div>
+                                        <div class="column is-2" style="font-size: 12px; margin-left: -20px; margin-top: 5px;">
+                                            <ion-icon name="arrow-forward-outline" class="colordef"></ion-icon>
+                                        </div>
+                                    </div>
+                                    <div class="columns is-vcentered mtm22">
+                                        <div class="column is-12">
+                                            <p class="font12no">3 hours ago</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </article>
+
+
+                        </div>
+
+
+
+                        <div class="box shadow-hidden border-all mbhalfrm pad15">
+                            <article class="media">
+                                <figure class="media-left mtm24">
+                                    <p class="image is-64x64">
+                                        <img class="is-rounded" src="asset/images/brex.png">
+                                    </p>
+                                </figure>
+                                <div class="media-content">
+                                    <div class="content">
+                                        <p>
+                                            Product Compliance Analyst
+                                            <br>
+                                            <strong>Brex</strong>
+                                            &nbsp;&nbsp;
+                                            <ion-icon name="people-outline"></ion-icon> <span>201-500</span>
+                                        </p>
+                                    </div>
+                                    <nav class="level is-mobile">
+                                        <div class="level-left">
+                                            <a class="level-item">
+                                                <span class="tag border_rounded badge_fulltime"><b>Full Time</b></span>
+                                            </a>
+                                            <a class="level-item">
+                                                <span class="tag is-link is-light border_rounded"><b>* Compliance Manager </b></span>
+                                            </a>
+                                        </div>
+                                    </nav>
+                                </div>
+                                <div class="media-right">
+                                    <div class="columns is-vcentered">
+                                        <div class="column is-10">
+                                            <p class="colordef" style="font-size: 12px;"><b>View job</b></p>
+                                        </div>
+                                        <div class="column is-2" style="font-size: 12px; margin-left: -20px; margin-top: 5px;">
+                                            <ion-icon name="arrow-forward-outline" class="colordef"></ion-icon>
+                                        </div>
+                                    </div>
+                                    <div class="columns is-vcentered mtm22">
+                                        <div class="column is-12">
+                                            <p class="font12no">3 hours ago</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+                <div class="column"></div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="columns">
+        <div class="column"></div>
+        <div class="column is-three-quarters">
+            <footer class="footer footerbg">
+                <div class="content">
+                    <div class="columns">
+                        <div class="column is-3 ml-3">
+                            <p class="title is-6 has-text-white">POPULAR JOBS</p>
+                            <ol class="has-text-white" style="list-style-type:none; padding: 0px; margin: 0px;">
+                                <li>Accounting</li>
+                                <li>Analytics</li>
+                                <li>Customer Service</li>
+                                <li>Design</li>
+                                <li>DevOps</li>
+                                <li>Human Resources</li>
+                                <li>Management</li>
+                                <li>Quality Assurance</li>
+                                <li>Sales</li>
+                                <li>Software Engineering</li>
+                                <li>Writing</li>
+                            </ol>
+                        </div>
+                        <div class="column is-3">
+                            <p class="title is-6 has-text-white">POPULAR REMOTE JOBS</p>
+                            <ol class="has-text-white" style="list-style-type:none; padding: 0px; margin: 0px;">
+                                <li>Customer Service</li>
+                                <li>Design</li>
+                                <li>Marketing</li>
+                                <li>Programming</li>
+                                <li>Project Manager</li>
+                                <li>QA</li>
+                                <li>Sales</li>
+                                <li>Web Developer</li>
+                                <li>Writing</li>
+                            </ol>
+
+                        </div>
+                        <div class="column is-3">
+                            <p class="title is-6 has-text-white">POPULAR JOBS LOCATIONS</p>
+                            <ol class="has-text-white" style="list-style-type:none; padding: 0px; margin: 0px;">
+                                <li>Austin</li>
+                                <li>Chicago</li>
+                                <li>Denver</li>
+                                <li>New York</li>
+                                <li>Remote</li>
+                                <li>Los Angeles</li>
+                                <li>San francisco</li>
+                            </ol>
+
+                        </div>
+                        <div class="column is-3">
+                            <p class="title is-6 has-text-white">POPULAR VIDEO CHATS</p>
+                            <ol class="has-text-white" style="list-style-type:none; padding: 0px; margin: 0px;">
+                                <li>Career Advice</li>
+                                <li>Customer Success</li>
+                                <li>Human Resource</li>
+                                <li>Marketing</li>
+                                <li>PR</li>
+                                <li>Sales</li>
+                                <li>Techology</li>
+                                <li>Working From Home</li>
+
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <div class="column"></div>
+    </div>
+
+</body>
+
+</html>
